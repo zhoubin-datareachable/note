@@ -1,0 +1,5 @@
+# npm包文件
+/node_modules
+
+# 打包文件
+/docs/.vuepress/dist
