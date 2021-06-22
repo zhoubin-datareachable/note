@@ -35,7 +35,7 @@ jobs:
       - name: deploy #部署
         uses: peaceiris/actions-gh-pages@v3 #和上面一样，这里使用的是他人写好的插件库，作用是发布到其他仓库中或者其他分支上，想要具体了解可以在插件库中搜索
         with:
-          deploy_key: ${{ secrets.BLOG }} # key
+          # deploy_key: ${{ secrets.BLOG }} # key
           external_repository: binkzhou/binkzhou.github.io #推送到该仓库中，地址格式为github名称/仓库名
           publish_branch: master #分支名
           publish_dir: docs/.vuepress/dist #要推送的内容（打包后的博客文件夹）
